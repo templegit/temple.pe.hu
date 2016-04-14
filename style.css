@@ -13,7 +13,7 @@ h2 {
 	color: orange;
 }
 
-#content, #navigation, h1 {
+#content, #navigation, h1, #footer {
 	background: url('images/site_backgrounds/2.bmp');
 	box-shadow: 4px 4px  black;
 }
