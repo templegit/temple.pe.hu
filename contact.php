@@ -3,5 +3,5 @@
 	$headingName = "Contact";
 ?>
 <?php include('templates/header.php') ?>
-		<p>This contact page!</p>
+		<p>Contact the web master at <a href="mailto:webmaster@temple.pe.hu">webmaster@temple.pe.hu</a>.</p>
 <?php include('templates/footer.php') ?>
