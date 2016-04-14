@@ -6,7 +6,7 @@
 		<p>Welcome to temple.pe.hu! This webserver provides html pages about many cool and interesting topics. Feel free to browse at your leisure and remember... have <b>fun!</b></p>
 		<article>
 			<h3>15/04/2016 &mdash; Cyphernomicon</h3>
-			<p>Click here to read & download the <a href="https://www.cypherpunks.to/faq/cyphernomicron/cyphernomicon.txt">cyphernomicon</a>.</p>
+			<p>Click <a href="https://www.cypherpunks.to/faq/cyphernomicron/cyphernomicon.txt">here to read & download the cyphernomicon</a>.</p>
 		</article>
 		<article>
 			<h3>13/04/2016 &mdash; Cool shapes</h3>
