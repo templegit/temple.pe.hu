@@ -1,0 +1,44 @@
+body {
+	text-align: center;
+	padding: 1em;
+	background: url('images/site_backgrounds/cool.jpg');
+	color: white;
+}
+
+* {
+	cursor: crosshair !important;
+}
+
+h2 {
+	color: orange;
+}
+
+#content, #navigation, h1 {
+	background: url('images/site_backgrounds/2.bmp');
+	box-shadow: 4px 4px  black;
+}
+
+
+#navigation {
+	padding: 1em 0 1em 0;
+}
+
+#navigation a {
+	color: lime;
+}
+
+#navigation a:hover {
+	color: #ff00ff;
+	background-color: white;
+}
+
+#navigation li {
+	list-style-type: none;
+	display: inline;
+	margin-right: 1em;
+}
+
+#content {
+	text-align: left;
+	padding: 1em;
+}
