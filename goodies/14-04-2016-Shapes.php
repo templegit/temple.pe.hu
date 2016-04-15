@@ -20,7 +20,7 @@
 	  	}
 	}
 ?>
-<?php include('../header.php') ?>
+<?php include('../templates/header.php') ?>
 		<ul id="articles">
 		<?php 
 			foreach ($fileNames as $file) {
@@ -42,4 +42,4 @@
 			<img src="goodies/shapes/9.bmp">
 			<img src="goodies/shapes/10.bmp">
 		</article>
-<?php include('../footer.php') ?>
+<?php include('../templates/footer.php') ?>

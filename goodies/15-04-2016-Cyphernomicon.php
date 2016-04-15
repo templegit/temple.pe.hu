@@ -20,7 +20,7 @@
 	  	}
 	}
 ?>
-<?php include('../header.php') ?>
+<?php include('../templates/header.php') ?>
 		<ul id="articles">
 		<?php 
 			foreach ($fileNames as $file) {
@@ -32,4 +32,4 @@
 			<h3>15/04/2016 &mdash; Cyphernomicon</h3>
 			<p>Click <a href="https://www.cypherpunks.to/faq/cyphernomicron/cyphernomicon.txt">here to read & download the cyphernomicon</a>.</p>
 		</article>
-<?php include('../footer.php') ?>
+<?php include('../templates/footer.php') ?>
