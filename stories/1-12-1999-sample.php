@@ -29,7 +29,7 @@
 		?>
 		</ul>
 		<article>
-			<h3>15/04/2016 &mdash; The Paranoid Security Guide</h3>
-			<p>Click <a href="http://pastebin.com/ZMbP2qKv">here to read & download the The Paranoid Security Guide</a>.</p>
+			<h1>1/12/1999 &mdash; Sample title</h1>
+			<p>Sample text.</p>
 		</article>
 <?php include('templates/footer.php') ?>
