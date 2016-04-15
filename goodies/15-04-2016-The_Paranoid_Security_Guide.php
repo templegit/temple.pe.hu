@@ -20,11 +20,11 @@
 	  	}
 	}
 ?>
-<?php include('../templates/header.php') ?>
+<?php include('/templates/header.php') ?>
 		<ul id="articles">
 		<?php 
 			foreach ($fileNames as $file) {
-			    echo '<li><a href="goodies/'.$file.'">'.$file.'<a></li>';
+			    echo '<li><a href="/goodies/'.$file.'">'.$file.'<a></li>';
 			}
 		?>
 		</ul>
@@ -32,4 +32,4 @@
 			<h3>15/04/2016 &mdash; The Paranoid Security Guide</h3>
 			<p>Click <a href="http://pastebin.com/ZMbP2qKv">here to read & download the The Paranoid Security Guide</a>.</p>
 		</article>
-<?php include('../templates/footer.php') ?>
+<?php include('/templates/footer.php') ?>
