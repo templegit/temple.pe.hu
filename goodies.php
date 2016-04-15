@@ -26,7 +26,6 @@
 	$latestArticle = $latestArticleFileName.'.php';
 ?>
 <?php include('templates/header.php') ?>
-		<?php include('goodies/'.$latestArticle) ?>
 		<ul id="articles">
 		<?php 
 			foreach ($fileNames as $file) {
@@ -34,4 +33,5 @@
 			}
 		?>
 		</ul>
+		<?php include('goodies/'.$latestArticle) ?>
 <?php include('templates/footer.php') ?>
