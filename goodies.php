@@ -11,7 +11,10 @@
 	if (is_dir($directory)){
 		if ($dh = opendir($directory)){
 		    while (($file = readdir($dh)) !== false){
-		      	array_push($fileNames, $file);
+		    	$parts = pathinfo($file);
+		    	if ($parts['extension'] == 'html') {
+		      		array_push($fileNames, $file);
+		    	}
 		    }
 		    closedir($dh);
 	  	}
@@ -33,9 +36,11 @@
 			webserver maybe a manifest.
 
 		-->
+		<ul id="articles">
 		<?php 
-		foreach ($fileNames as $file) {
-		    echo "<br>".$file;
-		}
+			foreach ($fileNames as $file) {
+			    echo '<li><a href="'.$file.'">'.$file.'<a></li>';
+			}
 		?>
+		</ul>
 <?php include('templates/footer.php') ?>
