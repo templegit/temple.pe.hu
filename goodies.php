@@ -12,7 +12,7 @@
 		if ($dh = opendir($directory)){
 		    while (($file = readdir($dh)) !== false){
 		    	$parts = pathinfo($file);
-		    	if ($parts['extension'] == 'html') {
+		    	if ($parts['extension'] == 'php') {
 		      		array_push($fileNames, $file);
 		    	}
 		    }
@@ -22,9 +22,8 @@
 
 	// latest file is
 
-	$latestArticleFileExt = 'html';
 	$latestArticleFileName = '15-04-2016-The_Paranoid_Security_Guide';
-	$latestArticle = $latestArticleFileName.'.'.$latestArticleFileExt;
+	$latestArticle = $latestArticleFileName.'.php';
 ?>
 <?php include('templates/header.php') ?>
 		<?php include('goodies/'.$latestArticle) ?>
