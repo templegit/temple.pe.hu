@@ -20,7 +20,7 @@
 	  	}
 	}
 ?>
-<?php include('../header.php') ?>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/templates/header.php') ?>
 		<ul id="articles">
 		<?php 
 			foreach ($fileNames as $file) {
@@ -32,4 +32,4 @@
 			<h1>1/12/1999 &mdash; Sample title</h1>
 			<p>Sample text.</p>
 		</article>
-<?php include('../footer.php') ?>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/templates/footer.php') ?>
