@@ -11,7 +11,7 @@
 	if (is_dir($directory)){
 		if ($dh = opendir($directory)){
 		    while (($file = readdir($dh)) !== false){
-		      	array_push($file);
+		      	array_push($fileNames, $file);
 		    }
 		    closedir($dh);
 	  	}
