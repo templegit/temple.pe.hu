@@ -41,7 +41,7 @@ h2 {
 #content {
 	text-align: left;
 	padding: 1em;
-	position: relative;
+	overflow: auto;
 }
 
 #content a {
@@ -49,8 +49,8 @@ h2 {
 }
 
 #articles {
-	position: absolute;
-    right: 0;
+	position: relative;
+	float: right;
     width: 33%;
     background: blue;
     margin: 0;
