@@ -30,6 +30,6 @@
 		</ul>
 		<article>
 			<h3>15/04/2016 &mdash; Vocaroos</h3>
-			<p>Click <a href="https://mega.nz/#!GpQ1QLqC">here to download our collection of funny Vocaroo's!</a>.</p>
+			<p>Click <a href="https://mega.nz/#!GpQ1QLqC">here to download our collection of funny Vocaroos!</a>.</p>
 		</article>
 <?php include($_SERVER['DOCUMENT_ROOT'].'/templates/footer.php') ?>
