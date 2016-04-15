@@ -4,7 +4,7 @@
 
 	// read all articles
 
-	$directory = "./";
+	$directory = $_SERVER['DOCUMENT_ROOT']."/goodies/";
 	$fileNames = array();
 
 	// Open a directory, and read its contents
