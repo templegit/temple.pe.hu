@@ -2,7 +2,7 @@
 	$pageName = "Goodies";
 	$headingName = "Goodies";
 	$latestArticleFileExt = 'html';
-	$latestArticleFileName = '15-04-2016-Cyphernomicon';
+	$latestArticleFileName = '15-04-2016-The_Paranoid_Security_Guide';
 	$latestArticle = $latestArticleFileName.'.'.$latestArticleFileExt;
 ?>
 <?php include('templates/header.php') ?>
