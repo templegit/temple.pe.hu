@@ -52,10 +52,22 @@ h2 {
 	position: relative;
 	float: right;
     width: 33%;
-    background: blue;
     margin: 0;
     padding: 0;
     list-style: none;
+    background: url('images/site_backgrounds/retro.bmp');
+}
+
+/*
+#articles li {
+
+}
+#articles li:nth-child(odd) {
+
+}*/
+
+#articles li a {
+	color: orange;
 }
 
 article {
