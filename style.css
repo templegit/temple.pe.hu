@@ -53,7 +53,8 @@ h2 {
 	float: right;
     width: 33%;
     margin: 0;
-    padding: 0;
+    padding: 0.2em;
+    border: 2px lime dotted;
     list-style: none;
     background: url('/images/site_backgrounds/retro.bmp');
 }
