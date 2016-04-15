@@ -41,6 +41,7 @@ h2 {
 #content {
 	text-align: left;
 	padding: 1em;
+	position: relative;
 }
 
 #content a {
