@@ -1,5 +1,5 @@
 <?php
-	$latestArticleFileName = '15-04-2016-The_Paranoid_Security_Guide';
+	$latestArticleFileName = '15-04-2016-Pupinia';
 	$latestArticle = $latestArticleFileName.'.php';
 ?>
 <?php include('goodies/'.$latestArticle) ?>
