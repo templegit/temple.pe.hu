@@ -8,8 +8,8 @@
 	$fileNames = array();
 
 	// Open a directory, and read its contents
-	if (is_dir($dir)){
-		if ($dh = opendir($dir)){
+	if (is_dir($directory)){
+		if ($dh = opendir($directory)){
 		    while (($file = readdir($dh)) !== false){
 		      	array_push($file);
 		    }
