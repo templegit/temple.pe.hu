@@ -20,7 +20,7 @@
 	  	}
 	}
 ?>
-<?php include('/templates/header.php') ?>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/templates/header.php') ?>
 		<ul id="articles">
 		<?php 
 			foreach ($fileNames as $file) {
@@ -32,4 +32,4 @@
 			<h3>15/04/2016 &mdash; The Paranoid Security Guide</h3>
 			<p>Click <a href="http://pastebin.com/ZMbP2qKv">here to read & download the The Paranoid Security Guide</a>.</p>
 		</article>
-<?php include('/templates/footer.php') ?>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/templates/footer.php') ?>
