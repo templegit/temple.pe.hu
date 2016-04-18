@@ -86,9 +86,16 @@
 	}
 	strobe();
 ////////////////////////
+
+	var x = Math.random()*10000
 	setTimeout(function () {
-		prompt('TELL ME YOUR NAME')
-	}, Math.random()*10000);
+		prompt('WHERE DO YOU LIVE')
+	}, x);
+
+
+	setTimeout(function () {
+		prompt('AAAAAAAAAAAAAAAAAAAAAAAAAAAGHH ! !')
+	}, x+Math.random()*4000);
 
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(function () {
