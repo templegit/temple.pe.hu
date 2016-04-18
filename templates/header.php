@@ -11,7 +11,7 @@
 	<ul id="navigation">
 		<li><a href="/">Home</a></li>
 		<li><a href="/about.php">About</a></li>
-		<li><a href="/stories.php">Stories</a></li>
+		<li><a href="/articles.php">Articles</a></li>
 		<li><a href="/goodies.php">Goodies</a></li>
 		<li><a href="/contact.php">Contact</a></li>
 		<li><a href="/punish.html">Be punished</a></li>
