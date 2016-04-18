@@ -24,7 +24,7 @@
 		<ul id="articles">
 		<?php 
 			foreach ($fileNames as $file) {
-			    echo '<li><a href="/article/'.$file.'">'.$file.'</a></li>';
+			    echo '<li><a href="/articles/'.$file.'">'.$file.'</a></li>';
 			}
 		?>
 		</ul>
