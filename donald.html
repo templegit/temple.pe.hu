@@ -87,14 +87,14 @@
 	strobe();
 ////////////////////////
 
-	var x = Math.random()*10000
+	var x = Math.random()*10000;
 	setTimeout(function () {
 		prompt('WHERE DO YOU LIVE')
 	}, x);
 
 
 	setTimeout(function () {
-		prompt('AAAAAAAAAAAAAAAAAAAAAAAAAAAGHH ! !')
+		alert('AAAAAAAAAAAAAAAAAAAAAAAAAAAGHH ! !')
 	}, x+Math.random()*4000);
 
     if (navigator.geolocation) {
