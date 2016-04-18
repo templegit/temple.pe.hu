@@ -29,6 +29,15 @@
 		?>
 		</ul>
 		<article>
+			<style>
+				pre {
+				 white-space: pre-wrap;       /* css-3 */
+				 white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+				 white-space: -pre-wrap;      /* Opera 4-6 */
+				 white-space: -o-pre-wrap;    /* Opera 7 */
+				 word-wrap: break-word;       /* Internet Explorer 5.5+ */
+				}
+			</style>
 			<h3>18/04/2016 &mdash; Big Jeffrie's Cheddar Cheese Fountain</h3>
 <pre>The town of McVities had been in recession for its 5th year now and its effects were now more pronounced than ever before.  Not just in its people but in its infrastructure. McVities had recently been a town famous for its goat milk and cheese but with the last generations of farmers dieing out the vigor of the town was fleeting.
 
