@@ -1,5 +1,5 @@
 <?php
-	$latestArticleFileName = '1-12-1999-Sample';
+	$latestArticleFileName = '18-04-2016-Big_Jeffries_Cheddar_Cheese_Fountain';
 	$latestArticle = $latestArticleFileName.'.php';
 ?>
 <?php include('articles/'.$latestArticle) ?>
