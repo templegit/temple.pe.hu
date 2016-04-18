@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>donald</title>
+</head>
+<body>
+<style type="text/css">
+	body, html {
+		background-color: black;
+		padding: 0;
+		margin: 0;
+	}
+	img {
+		height: 100%;
+		width: 100%;
+		display: block;
+		position: fixed;
+	}
+	iframe {
+		display: none;
+	}
+	* {
+		cursor: not-allowed;
+	}
+	img.flip {
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+	}
+	#cover.show {
+		display: block;
+	}
+	#cover {
+		display: none;
+		position: fixed;
+		z-index: 1;
+		background: black;
+		width: 100%;
+		height: 100%;
+	}
+</style>
+<iframe width="1" height="1" src="https://www.youtube.com/embed/-hQ0-9Iy6I4?rel=0&autoplay=1" frameborder="0"></iframe>
+<div id="cover"></div>
+<img src="images/site_backgrounds/donald.jpg">
+<script>
+	window.onbeforeunload = function(){
+	  return 'PRESS LEAVE THIS PAGE';
+	};
+
+	var r = function () {
+		return Math.random()*600;
+	};
+
+	var cover = document.getElementById('cover'),
+		image = document.getElementsByTagName('img')[0];
+
+	function toggleVisible () {
+		if (hasClass(cover, 'show')) {
+			cover.setAttribute('class', '');
+		} else {
+			cover.setAttribute('class', 'show');
+		}
+	}
+
+	function toggleFlip () {
+		if (hasClass(image, 'flip')) {
+			image.setAttribute('class', '');
+		} else {
+			image.setAttribute('class', 'flip');
+		}
+	}
+	
+	function hasClass(element, cls) {
+	    return (' ' + element.className + ' ').indexOf(' ' + cls + ' ') > -1;
+	}
+
+	function strobe () {
+		setTimeout(function () {
+			toggleVisible();
+			if (Math.random() < 0.33) toggleFlip();
+			strobe();
+		}, r())
+	}
+	strobe();
+////////////////////////
+	setTimeout(function () {
+		prompt('TELL ME YOUR NAME')
+	}, Math.random()*10000);
+
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(function () {
+
+        });
+    }
+</script>
+</body>
+</html>
