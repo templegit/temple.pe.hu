@@ -39,8 +39,8 @@
 				}
 			</style>
 			<h3>18/04/2016 &mdash; Youth</h3>
-<img href="https://puu.sh/ot5ei/0d2de1ad3c.jpg">
-			
+<img src="https://puu.sh/ot5ei/0d2de1ad3c.jpg">
+
 <pre>The man hastened his walk down the grey 
 
 london street. Now panting and eager to find 
