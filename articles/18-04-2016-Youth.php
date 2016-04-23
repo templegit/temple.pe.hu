@@ -253,5 +253,6 @@ you!" he laughs. "You are a mess!" the
 persuer says as he reveals a menacing black 
 
 taser from his hoody pocket.</pre>
+<img href="https://puu.sh/ot5ei/0d2de1ad3c.jpg">
 		</article>
 <?php include($_SERVER['DOCUMENT_ROOT'].'/templates/footer.php') ?>
