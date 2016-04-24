@@ -4,6 +4,7 @@
 	<title>temple.pe.hu - <?php echo $pageName ?></title>
 	<meta charset="utf8">
 	<link rel="stylesheet" href="/style.css">
+	<script src="/js/jquery.js"></script>
 	<script src="/js/script.js"></script>
 	<script src="/js/mover.js"></script>
 </head>
