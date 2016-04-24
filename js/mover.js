@@ -3,7 +3,9 @@ jQuery(document).ready(function () {
         var MAX_IMAGES = 13;
         var mover = document.createElement('img');
         mover.id = 'mover';
-        mover.style.position = 'fixed';
+        mover.style.position = 'absolute';
+        mover.style.left = 0;
+        mover.style.right = 0;
         mover.src = 'images/wordart/' + Math.ceil(Math.random()*MAX_IMAGES) + '.png'
         document.body.appendChild(mover);
         jQuery('#mover').bounce({
