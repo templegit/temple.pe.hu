@@ -1,4 +1,4 @@
-jQuery(document).on('ready', function () {
+jQuery(document).ready(function () {
     if (Math.random() < 2) {
         var MAX_IMAGES = 13;
         var mover = document.createElement('img');
