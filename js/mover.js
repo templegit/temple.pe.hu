@@ -5,11 +5,11 @@ jQuery(document).ready(function () {
         mover.id = 'mover';
         mover.style.position = 'fixed';
         mover.style.left = 0;
-        mover.style.right = 0;
+        mover.style.top = 0;
         mover.src = 'images/wordart/' + Math.ceil(Math.random()*MAX_IMAGES) + '.png'
         document.body.appendChild(mover);
         jQuery('#mover').bounce({
-            speed: 6
+            speed: 9
         })
     }
 })
