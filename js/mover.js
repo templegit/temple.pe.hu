@@ -1,11 +1,15 @@
-if (Math.random() < 2) {
-    var MAX_IMAGES = 13;
-    var mover = document.createElement('img');
-    mover.id = 'mover';
-    mover.style.position = 'fixed';
-    mover.src = 'images/wordart/' + Math.ceil(Math.random()*MAX_IMAGES) + '.png'
-    document.body.appendChild(mover);
-    sweetWordMovement();
+document.onreadystatechange = function () {
+    if (document.readyState == "complete") {
+        if (Math.random() < 2) {
+            var MAX_IMAGES = 13;
+            var mover = document.createElement('img');
+            mover.id = 'mover';
+            mover.style.position = 'fixed';
+            mover.src = 'images/wordart/' + Math.ceil(Math.random()*MAX_IMAGES) + '.png'
+            document.body.appendChild(mover);
+            sweetWordMovement();
+        }
+    }
 }
 
 function sweetWordMovement () {
