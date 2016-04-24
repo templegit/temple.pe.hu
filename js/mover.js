@@ -2,9 +2,9 @@ jQuery(document).ready(function () {
     if (Math.random() < 2) {
         var MAX_IMAGES = 13;
         var container = jQuery('<div>');
-        container.style.position = 'fixed';
-        container.style.width = '100%';
-        container.style.height = '100%';
+        container[0].style.position = 'fixed';
+        container[0].style.width = '100%';
+        container[0].style.height = '100%';
         jQuery('body').append(container);
         var mover = jQuery('<img>');
         mover.attr('id', 'mover');
