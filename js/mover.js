@@ -1,16 +1,21 @@
 jQuery(document).ready(function () {
     if (Math.random() < 2) {
         var MAX_IMAGES = 13;
-        var mover = document.createElement('img');
-        mover.id = 'mover';
-        mover.style.position = 'fixed';
-        mover.style.left = 0;
-        mover.style.top = 0;
-        mover.src = 'images/wordart/' + Math.ceil(Math.random()*MAX_IMAGES) + '.png'
-        document.body.appendChild(mover);
+        var container = jQuery('<div>');
+        container.style.position = 'fixed';
+        container.style.width = '100%';
+        container.style.height = '100%';
+        jQuery('body').append(container);
+        var mover = jQuery('<img>');
+        mover.attr('id', 'mover');
+        mover[0].style.position = 'fixed';
+        mover[0].style.left = 0;
+        mover[0].style.top = 0;
+        mover[0].src = 'images/wordart/' + Math.ceil(Math.random()*MAX_IMAGES) + '.png'
+        mover.appendTo(container);
         jQuery('#mover').bounce({
             speed: 9
-        })
+        });
     }
 })
 
@@ -57,7 +62,7 @@ $.fn.bounce = function(options) {
             if (offset.top <= 0 && vector.y < 0) {
                 vector.y = -1 * vector.y;
             }
-            if ((offset.top + height) >= window.innerHeight) {
+            if ((offset.top + height) >= $parent.height()) {
                 vector.y = -1 * vector.y;
             }
 
