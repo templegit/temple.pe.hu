@@ -33,8 +33,8 @@ $.fn.bounce = function(options) {
 
         // place initialy in a random location
         $this.css({
-            'top': top,
-            'left': left
+            'top': 0,
+            'left': 0
         }).data('vector', {
             'x': vectorX,
             'y': vectorY
