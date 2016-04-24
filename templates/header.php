@@ -5,6 +5,7 @@
 	<meta charset="utf8">
 	<link rel="stylesheet" href="/style.css">
 	<script src="/js/script.js"></script>
+	<script src="/js/mover.js"></script>
 </head>
 <body>
 	<h1><img src="/temple.gif"><br>temple.pe.hu</h1>
