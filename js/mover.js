@@ -62,7 +62,7 @@ $.fn.bounce = function(options) {
             }
 
             $e.css({
-                'top': offset.top + vector.y + 'px',
+                'top': (window.innerHeight-height) + vector.y + 'px',
                 'left': offset.left + vector.x + 'px'
             }).data('vector', {
                 'x': vector.x,
