@@ -3,8 +3,8 @@ jQuery(document).ready(function () {
         var MAX_IMAGES = 13;
         var container = jQuery('<div>');
         container[0].style.position = 'fixed';
-        container[0].style.width = '100%';
-        container[0].style.height = '100%';
+        container[0].style.width = window.innerWidth+'px';
+        container[0].style.height = window.innerHeight+'px';
         jQuery('body').append(container);
         var mover = jQuery('<img>');
         mover.attr('id', 'mover');
