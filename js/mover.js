@@ -28,9 +28,9 @@ $.fn.bounce = function(options) {
     return $(this).each(function() {
         
         var $this = $(this),
-            $parent = jQuery('body'),
-            height = window.innerHeight,
-            width = window.innerWidth,
+            $parent = $this.parent(),
+            height = $parent.height(),
+            width = $parent.width(),
             top = Math.floor(Math.random() * (height / 2)) + height / 4,
             left = Math.floor(Math.random() * (width / 2)) + width / 4,
             vectorX = settings.speed * (Math.random() > 0.5 ? 1 : -1),
