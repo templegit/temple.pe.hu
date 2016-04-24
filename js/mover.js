@@ -4,6 +4,7 @@ if (Math.random() < 2) {
     mover.id = 'mover';
     mover.style.position = 'fixed';
     mover.src = 'images/wordart/' + Math.ceil(Math.random()*MAX_IMAGES) + '.png'
+    document.body.appendChild(mover);
     sweetWordMovement();
 }
 
