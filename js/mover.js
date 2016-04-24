@@ -57,12 +57,12 @@ $.fn.bounce = function(options) {
             if (offset.top <= 0 && vector.y < 0) {
                 vector.y = -1 * vector.y;
             }
-            if ((offset.top + height) >= $parent.height()) {
+            if ((offset.top + height) >= window.innerHeight) {
                 vector.y = -1 * vector.y;
             }
 
             $e.css({
-                'top': (window.innerHeight-height) + vector.y + 'px',
+                'top': offset.top + vector.y + 'px',
                 'left': offset.left + vector.x + 'px'
             }).data('vector', {
                 'x': vector.x,
